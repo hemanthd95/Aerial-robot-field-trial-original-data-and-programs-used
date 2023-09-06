@@ -12,3 +12,5 @@ The Arduino program was used to measure soil moisture, send it to myRIO, and upl
 ![image](https://github.com/hemanthd95/Aerial-robot-field-trial-original-data-and-programs-used/assets/97570253/ff670762-25ef-4388-9d01-c34f941d0c5a)
 
 The field_data_to_usable_data.R R program was used to post-process the data and get tabulated forms of soil moisture data with the respective GPS coordinates. The correct folder consisting of soil moisture .txt files should be provided. The program will export three .csv files one for soil moisture, another for travel time, and for TDR waveform amplitude data.
+
+The timed_loop_SDI_12.vi was used in Version 1.0 to perform communication with the sensor directly from NI-myRIO using LabVIEW. It is a novel program where the SDI-12 protocol was successfully implemented with the software.
